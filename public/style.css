@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+body{
+    min-height: 70vh;
+    padding: 0 16px;
+    min-width: 100vw;
+}
+@media (width<=395px){
+.image{
+    height:150px !important;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+}
